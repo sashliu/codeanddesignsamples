@@ -6,3 +6,6 @@ I have also included a mock up portfolio that I made for my UI/UX course which e
 other UI/UX projects that I have worked on with a focus on increasing accessibility through improved user interfaces. 
 The final product can be seen through this link https://wonkywombat789.github.io/finalportfolio/
 
+Lastly, I have included a PDF with the findings from a deep learning project I did with fellow classmates. In this project we created a deep learning model
+to classify a song's genre based on its audio spectogram imagery. 
+
