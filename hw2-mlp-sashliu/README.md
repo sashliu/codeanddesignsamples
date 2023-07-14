@@ -1,0 +1,1 @@
+For this project I implemented methods in activations, core, layers, losses, metrics, model, onehot, optimizers, and assignment.py in order to create a MLP.
