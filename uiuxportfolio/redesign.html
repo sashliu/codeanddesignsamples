@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="redesign.css">
+    <link rel="icon" type="image/x-icon" href="wombat.png">
+    <meta name="description" content="my assignment write up">
+</head>
+    <body>
+        <div class="navbar">
+            <a href="about.html">about</a>
+            <div class="dropdown">
+                
+                <button class="dropbtn"><b><a class = "home" href="index.html">my projects</a></b> 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                <div class="dropdown-content">
+                  <div class="story">
+                    <a href="personas.html">personas & storyboarding</a>
+                  </div>
+                  <div class="rr">
+                    <a href="redesign.html">responsive redesign</a>
+                  </div>
+                  <div class="eye">
+                    <a href="eyetracking.html">a/b testing & eye tracking</a>
+                  </div>
+                  <div class="it">
+                    <a href="iterative.html">iterative design</a>
+                  </div>
+              
+                </div>
+            </div> 
+            
+            <a class="icon" style="float: left;"href="index.html"><b><h1><span class="multicolortext">[anon]</span></h1></b></a>
+          </div>
+ 
+          <div class="he">
+            <h1 class="h1">redesigning nami restaurant's website</h1>
+            <form action="https://wonkywombat789.github.io/namiredesign/">
+                <button class="button">my redesign</button>
+            </form>
+        </div>
+        <h2>background information</h2>
+        <p>A restaurant's website allows it the opportunity to share information with the viewer and attract customers. If the webpage is not designed well, viewers may miss key information that could draw them to your restaurant.</p>
+        <p>I decided to redesign a local restaurant's webpage to increase its efficiency, learnability, and memorability.</p>
+        <p>In order to redesign the page I first identified problems with the site, then I designed a low-fi wireframe to improve the interface. After creating the low-fi wireframe I then made a Hi-fi prototype on Figma. With the design curated, I was able to build the page using HTML/CSS</p>
+        <h2>the original webpage</h2>
+        <p>Nami is a local Japanese restaurant in Providence, Rhode Island. Their <a target="_blank" href="https://namiprov.com/">current website</a> provides information on the restaurant's cuisine including pictures and customer reviews. Pictured below is a screenshot of the original website</p>
+        <div class="og-website">
+            <img alt="nami website screenshot" src="og.png">
+        </div>
+        <h2>the problems</h2>
+        <p>Before getting into my redesign, I first determined areas where the original website could be improved in terms of usability and design. I categorized the issues in terms of efficiency, learnability and memorability.</p>
+        <div class="problems">
+        <div class="list">
+        <h3>efficiency</h3>
+        <ul>
+            <li>really hard to read the text on the page, so viewers have to spend more time deciphering the information</li>
+            <li>some of the menu bar buttons don't lead anywhere, so users may get confused and spend more time trying to navigate to different parts of the page</li>
+            <li>could not find the hours and location of the restaurant easily, which is important information for customers</li>
+            
+        </ul>
+        </div>
+        <div class="list">
+        <h3 >learnability</h3>
+        <ul>
+            <li>confusing and cluttered layout with a bunch of text on the home page, so it is hard to know what the information is</li>
+            <li>when the page is shrunk, the menu bar covers with information on the page making it harder to read</li>
+            <li>images on the home page make it hard to decipher what food the restaurant serves</li>
+        </ul>
+    </div>
+    <div class="list">
+        <h3>memorability</h3>
+        <ul>
+            <li>text is hard to read which makes the information not memorable</li>
+        </ul>
+    </div>
+</div>
+        <h2>accessibility</h2>
+        <div class="a">
+        <div>
+        <p>As mentioned above, the main issue with the website is the color scheme which makes it really hard to read the text on the page. When I used the web accessibility evaluation tool, 36 contrast errors were found. </p>
+        <div class="wav">
+            <img class="imgwav"alt="nami website WAVE"src="wav.png">
+        </div>
+        <p>As a non visually impaired person, I already had a very hard time deciphering the text on this page. This page is inaccessible to colorblind individuals as there is practically no contrast. </p>
+    </div>
+
+    </div>
+        <h2>low-fi wireframe</h2>
+        <p>After identifying issues in the orignal page, I started my redesign. To do this, I created low-fi wireframes on Balsamiq for three different screen sized (phone, tablet, and desktop). Doing a low-fi prototype for three different screen sizes allowed me to think carefully about the different layout choices for different screen sizes. I knew that things would have to be more vertically oriented for a smaller screen size to avoid horizontal squishing. </p>
+        <div class="lowfi">
+            <div class="l">
+        <img alt="lowfi phone wireframe" src="low-fi-phone.png">
+    </div>
+    <hr>
+    <div class="l">
+        <img alt="lowfi tablet wireframe" src="low-fi-tablet.png">
+    </div>
+    <hr>
+    <div class="l">
+        <img alt="lowfi desktop wireframe" src ="low-fi-desktop.png">
+    </div>
+    </div>  
+        <h2>visual design style guide</h2>
+        <p>After finishing my low-fi wireframes, I created a visual design guide on figma to ensure my hi-fi prototype was consistent. I designed to use dark green as the main color with light pink accent as those two colors have high contrast. I was able to input this color scheme on a colorblind checker and they seemed to be accessible.</p>
+        <div class="og-website">
+        <img alt="visual style guide" src = "visual-style-guide.png">
+    </div>
+        <h2>hi-fi prototype</h2>
+        <p>Next, using Figma, I created three Hi-fi prototypes for the same screen sizes as I did for my low-fi(phone, tablet, desktop). At this point I had a better idea of what I wanted the website to look like. Pictured below you can see the responsive design created as the website changes to accomodate different screen sizes.</p>
+        <h4>phone</h4>
+        <div class="l">
+        <img alt="hi fi phone protoype" src="hi-fi-phone.png">
+    </div>
+    <hr>
+    <h4>tablet</h4>
+    <div class="l">
+        <img alt="hi fi tablet prototype" src="hi-fi-tablet.png">
+    </div>
+    <hr>
+    <h4>desktop</h4>
+    <div class="l">
+        <img alt="hi fi desktop prototype" src="hi-fi-desktop.png">
+    </div>
+        <h2>redesigned website</h2>
+        <p>Finally, after I finished my prototypes I created my <a target="_blank" href="https://wonkywombat789.github.io/namiredesign/">redesigned website</a> using HTML/CSS.</p>
+       <div class="website">
+        <div>
+        <img src="redesign-top.png">
+    </div>
+    <div>
+        <img src="redesign-body.png">
+    </div>
+    <div>
+        <img src="redesign-footer.png">
+    </div>
+</div>
+<div class="conclusion">
+    <h2>concluding thoughts</h2>
+    <p>From this project I was able to learn strategies on how to improve usability through design. Making a responsive web page allows it to be easy to navigate through on a variety of device sizes. If a site is only readable on a desktop size, this limits accessibility for users on mobile or tablet device sizes. Within this project, I also made sure to utilize a color blind checker to ensure that the color scheme is accessible to those who are visually impaired. Increasing learnability, memorability and efficiency betters user experience on sites, and can better metrics like number of returned users. After reviewing feedback that I received from peers after publishing my website, I think next steps can be to make the header smaller so more can be seen when the page is first opened, and also creating more navigable pages.</p>
+    </div>
+    <div class="footer">
+        <p>get in touch</p>
+    
+        <button class="butt"><a href="#email">email</a></button>
+        <button class="butt2"><a href="#linkedin">linkedin</a></button>
+    </div>
+    </body>
+</html>
